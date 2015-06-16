@@ -1,7 +1,7 @@
 
 module.exports = require('./lib');
 var http = require("http");
-var socketio = require("socket.io");
+var socketio = require('socket.io');
 var fs = require("fs");
 
 var server = http.createServer(function(req, res) {
